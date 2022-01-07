@@ -1,0 +1,24 @@
+{
+  "name": "jda",
+  "version": "1.0.0",
+  "description": "Aplicación para manejar juntas de agua",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhepower/jda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xhepower/jda/issues"
+  },
+  "homepage": "https://github.com/xhepower/jda#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
