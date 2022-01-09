@@ -29,6 +29,15 @@ module.exports = {
         test: /\.s[ac]ss$/i,
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
+      {
+        test: /\.(png|jpg|svg|jpeg|webp)$/,
+        /*aquí en test agregas la expresión regular para procesar los diferentes tipos de imagenes que tengas.*/
+        type: 'asset/resource',
+        generator: {
+          filename: 'assets/pictures/[hash][ext]',
+          /*aquí en filename pones la carpeta en donde quieres que se guarden tus imagenes (le agrego el [hash] para evitar problemas con el cache, además [ext] hace referencia a la extensión del archivo que se haya procesado).*/
+        },
+      },
     ],
   },
   plugins: [
