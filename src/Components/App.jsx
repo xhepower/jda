@@ -1,7 +1,8 @@
 import React from "react";
 import "../styles/global.scss";
+import CreateNewPassword from "./CreateNewPassword";
 function App() {
-  return <>HOLA PUTOS</>;
+  return <CreateNewPassword />;
 }
 
 export default App;
