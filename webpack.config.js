@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -56,5 +57,6 @@ module.exports = {
     // créditos al compañero Fabian Rivera Restrepo
     port: 3005,
     compress: true,
+    historyApiFallback: true,
   },
 };

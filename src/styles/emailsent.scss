@@ -1,0 +1,27 @@
+@use "./createnewpassword.scss";
+
+.email-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  background-color: var(--primary);
+
+  margin-bottom: 24px;
+}
+.email-image img {
+  width: 80px;
+}
+.resend {
+  font-size: var(--sm);
+}
+.resend span {
+  color: var(--secondary);
+}
+.resend a {
+  color: var(--hospital-green);
+  text-decoration: none;
+}
